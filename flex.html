@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsible Flex</title>
+    <style>
+        .container {
+            display: flex;
+            gap: 10px;
+        }
+        
+        .box {
+            background-color: blanchedalmond;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        
+        @media screen and (max-width: 576px) {
+            .container {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Flexible Flex</h2>
+    <div class="container">
+        <div class="box">
+            <h3>First Box</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam rerum impedit iste minima architecto, placeat cum voluptates ex cupiditate? Quo tempore eos reprehenderit, necessitatibus, illum amet qui reiciendis voluptatum, quod aliquam doloribus animi
+                tempora earum. Repudiandae quo impedit, delectus facere totam illum, suscipit laboriosam repellat iste, at dolorum in officia!
+            </p>
+        </div>
+        <div class="box">
+            <h3>Second Box</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, fugiat consectetur! Minus ut nam animi ipsa voluptatibus ex, reprehenderit dolor eaque excepturi rerum itaque facere eum placeat amet hic sapiente magni. Accusamus tempore voluptatibus eligendi
+                maiores voluptatem ea a aperiam iusto et placeat, autem asperiores inventore earum illo quasi sed!
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
